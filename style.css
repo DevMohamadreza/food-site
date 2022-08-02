@@ -1,0 +1,146 @@
+body{
+    font-family: sans-serif;
+}
+.SiteHeader{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ee4c7c;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+.HeaderRight{
+    display: flex;
+    padding: 0rem 2rem;
+}
+.HeaderLeft{
+    display: flex;
+    padding: 1rem 2rem;
+}
+.HeaderRightItem{
+    margin-top: 5px;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+.HeaderItem{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+.HeaderItem:hover{
+    color: #e3e2df;
+}
+.HeaderItem.Active{
+    border-radius: 0.25rem;
+    padding: 5px 5px;
+    background-color: #9a1750;
+}
+.BaseSite{
+    width: 100%;
+    display: flex;
+}
+.section{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    width: 60%;
+}
+.Firstsec{
+    display: flex;
+}
+.Secoundsec{
+    display: flex;
+}
+.Thirdsec{
+    display: flex;
+}
+
+.imgItem{
+    border-radius: 0.5rem;
+    flex-grow: 2;
+    padding: 1rem;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 0rem;
+}
+footer{
+    margin-left: 3rem;
+    width: 35rem;
+    height: 856px;
+    background-color: #5d001e;
+    display: flex;
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 2rem;
+}
+.mataleb{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.Footeritem{
+    margin-bottom: 5rem;
+    padding: 2rem 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    align-items: flex-end;
+    display: flex;
+}
+.Section--Tozihat{
+    font-weight: bold;
+    display: flex;
+    margin-left: 3rem;
+}
+.Buy{
+    text-align: center;
+    padding: 1rem 3rem;
+    background-color: #e3afbd;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    /* color: #ffffff; */
+}
+.input{
+    width: 4rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    text-align: center;
+}
+.card{
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #e3e2df;
+}
+.inputCard{
+    display: flex;
+}
+.button{
+    margin-top: 1rem;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #e3afbd;
+    border: 1px solid #9a1750;
+    cursor: pointer;
+}
+.tips{
+    margin-top: 5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.hr{
+    width: 25rem;
+}
+.tip{
+    text-align: left;
+}
